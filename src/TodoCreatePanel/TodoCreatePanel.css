@@ -4,7 +4,7 @@
 
 .todo-create__form {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   flex-wrap: wrap;
   gap: 50px;
 }
@@ -12,9 +12,28 @@
 .todo-create__label {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .todo-create__btn {
   display: block;
 }
 
+.todo-create__input-error-message {
+ position: absolute;
+ font-size: 14px;
+ color: #ff0000;
+ bottom: -35px;
+ opacity: 0;
+
+}
+
+.todo-create__input-error-message-show {
+  opacity: 1;
+ 
+ }
+
+.todo-create__input-error-border {
+  outline: none;
+  border-color: #ff0000;
+ }
