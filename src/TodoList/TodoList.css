@@ -1,17 +1,17 @@
 .todo-list__container {
-    padding: 0 40px;
-    border: none;
-    border-collapse: separate;
+  padding: 0 40px;
+  border: none;
+  border-collapse: separate;
   border-spacing: 0 15px;
 }
 
 .todo-list__head {
-    background-color: #cfc5c5;
-    margin-bottom: 20px;
-    text-transform: uppercase;    
+  background-color: #cfc5c5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
 
 .todo-list__title {
-    width: 170px;
-    height: 30px;
+  width: 170px;
+  height: 30px;
 }

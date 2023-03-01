@@ -1,0 +1,36 @@
+.modal__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08080871;
+  z-index: 1200;
+}
+
+.modal__container {
+  background-color: #ffffffe6;
+  width: 500px;
+  padding: 20px;
+}
+
+.modal__title {
+  text-align: center;
+}
+
+.modal__description {
+  font-weight: bold;
+}
+
+.modal__status {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.modal__btn {
+  display: block;
+  padding: 5px 20px;
+}
