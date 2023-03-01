@@ -29,17 +29,17 @@ export const TodoCreatePanel: React.FC<TodoCreatePanelProps> = ({ addTodo }) => 
 
     console.log(todo)
     return (
-        <div className="todo_create__container">
-            <form className="todo_create__form" onSubmit={onSubmit}>
-                <label htmlFor="title" className="todo_create__label">
+        <div className="todo-create__container">
+            <form className="todo-create__form" onSubmit={onSubmit}>
+                <label htmlFor="title" className="todo-create__label">
                     <p>Title:</p>
                     <input name="title" id="title" type='text' placeholder="Enter title" onChange={onChange} value={todo.title} />
                 </label>
-                <label htmlFor="description" className="todo_create__label">
+                <label htmlFor="description" className="todo-create__label">
                     <p>Description:</p>
                     <input name="description" id="description" type='text' placeholder="Enter description" onChange={onChange} value={todo.description} />
                 </label>
-                <button type="submit" className="todo_create__btn">
+                <button type="submit" className="todo-create__btn">
                     Create
                 </button>
             </form>

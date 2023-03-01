@@ -1,29 +1,20 @@
-.todo_create__container {
+.todo-create__container {
   padding: 40px;
 }
 
-.todo_create__form {
+.todo-create__form {
   display: flex;
   align-items: end;
   flex-wrap: wrap;
   gap: 50px;
 }
 
-.todo_create__label {
+.todo-create__label {
   display: flex;
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
-  .todo_create__label {
-    min-width: 250px;
-  }
-}
-
-.todo_create__btn {
+.todo-create__btn {
   display: block;
 }
 
-/* todo_create__label > p {
-    display: inline;
-} */
