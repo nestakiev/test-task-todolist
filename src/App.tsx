@@ -12,9 +12,14 @@ const TODOLIST_BASE = [
 function App() {
   const [todos, setTodos] = useState(TODOLIST_BASE);
   console.log(todos)
+
+  const addTodo = ({title, description}: Omit<Todo, "id" | "status" >) => {
+    setTodos([...todos, { id: todos[todos.length - 1].id + 1, title, description, status: false }]);
+  };
+
   return (
     <div>
-      <TodoCreatePanel/>
+      <TodoCreatePanel addTodo={addTodo}/>
     </div>
   );
 }
